@@ -38,9 +38,6 @@ int main () {
         case 4:
             std::cout << "cannot predict now\n";
             break;
-        default:
-            std::cout << "try again\n";
-            break;
     }
     // added to end code after one run
     return 0;
