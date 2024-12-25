@@ -237,4 +237,4 @@ https://www.w3schools.com/cpp/cpp_pointers.asp
 
 
 ### continue 
-[function practice](functions.cpp)
+[Function practice](functions.cpp)
