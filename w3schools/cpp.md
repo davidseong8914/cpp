@@ -43,3 +43,41 @@ cin >> x;
 // or
 
 getline(cin), x;
+```
+
+cstyle string
+```
+char stringu[] = "hello";
+```
+
+max, min
+```
+std::cout << min(1, 5);
+// this will print 1
+```
+
+
+#include <cmath>
+```
+#include <cmath>
+
+std::cout << sqrt(64);
+std::cout << round(2.6);
+std::cout << log(2);
+```
+
+if else :
+```
+int a;
+int b;
+std::cout << "input a then b";
+std::cin >> a;
+std::cin >> b;
+
+if (a > b) {
+    std::cout << "a is larger than b";
+} else if (a == b) {
+    std::cout << "nice";
+} else {
+    std::cout << "b is greater!!!";
+}

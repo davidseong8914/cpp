@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -10,6 +11,7 @@ int main() {
    const float deci = 3.33;
 
     int num;
+    string hoso;
     double dec = 1.01;
     char character = 'a';
     char Character = 'D';
@@ -25,6 +27,8 @@ int main() {
     bool wrong = false;
 
     cout << "Hello world!\n";
+    getline(cin, hoso);
+    cout << num;
     // cout << "please input a number\n";
     // cin >> num;
 
