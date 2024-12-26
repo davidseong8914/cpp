@@ -231,10 +231,35 @@ std::cout << &food;
 0x6defed4 // where the memory is stored
 ```
 
+Try and catch
+```cpp
+// try: define a block of code that can be tested
+// throw: throws an exceptoion
+// catch: code that runs when error has been encountered
+
+try {
+    int age = 5;
+    if (age >= 18) {
+        std::cout << "welcome to hotel transylvania\n"
+    } else {
+        throw 404;
+    }
+} catch (int error) {
+    std::cout << "access dennied.\n";
+    std::cout << "error number: " << error << std::endl;
+}
+```
+
+
 ** Pointer **
 https://www.w3schools.com/cpp/cpp_pointers.asp
 
+** Files **
+https://www.w3schools.com/cpp/cpp_files.asp
 
+** Date **
+https://www.w3schools.com/cpp/cpp_date.asp
 
 ### continue 
 [Function practice](functions.cpp)
+[Class practice](classes.cpp)
