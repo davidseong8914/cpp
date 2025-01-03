@@ -251,6 +251,7 @@ try {
 ```
 
 
+
 ** Pointer **
 https://www.w3schools.com/cpp/cpp_pointers.asp
 
@@ -263,3 +264,4 @@ https://www.w3schools.com/cpp/cpp_date.asp
 ### continue 
 [Function practice](functions.cpp)
 [Class practice](classes.cpp)
+
