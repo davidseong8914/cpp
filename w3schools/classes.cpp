@@ -88,6 +88,7 @@ class protection_master {
     protected:
         int shield;
 };
+
 class protection_child: public protection_master {
     public:
         void set_shield(int shield_num) {
